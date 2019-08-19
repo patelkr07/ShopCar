@@ -59,7 +59,8 @@ class Buy extends Component {
                             name="carSearch"
                             value={this.state.carSearch}
                             onChange={this.handleInputChange}
-                            placeholder="Search for a Car"
+                            placeholder="Search for a Car (Make: Ford, Honda, etc.)"
+                            //^^car brand working, not also specific model
                             />
 
                             <Button
@@ -86,6 +87,7 @@ class Buy extends Component {
                                                   miles={car.miles}
                                                   zip={car.zip}
                                                   href={car.vdp_url}
+                                                  thumbnail={car.media.photo_links[0]}
                                                 />
                                             )
                                         })}
