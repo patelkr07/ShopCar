@@ -12,7 +12,7 @@ import ShopcarLogo from "../components/ShopcarLogo"
 
 //removed images that have vague/missing usage rights
 
-const carPixArray = ["https://www.wsupercars.com/wallpapers/Honda/1992-Honda-NSX-R-V4-1600.jpg", "https://images.pexels.com/photos/2127740/pexels-photo-2127740.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260", "https://images.pexels.com/photos/831475/pexels-photo-831475.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ]
+const carPixArray = ["https://images.pexels.com/photos/14055736/pexels-photo-14055736.jpeg", "https://images.pexels.com/photos/2127740/pexels-photo-2127740.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260", "https://images.pexels.com/photos/831475/pexels-photo-831475.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ]
 
 // var randomizer = Math.floor(10*Math.random());
 // better version below, still need to make into component instead of separate pages
